@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/auth/google"
-  to = "https://xs-xegm.onrender.com/auth/google"
+  to = "https://gift-server-hena.onrender.com/auth/google"
   status = 200
   force = true
   headers = {X-From = "Netlify"}

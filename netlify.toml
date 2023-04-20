@@ -3,13 +3,12 @@
   to = "https://gift-server-hena.onrender.com/auth/google"
   status = 200
   force = true
-  headers = {X-From = "Netlify"}
+  
+
 [[redirects]]
-  from = "/*" to = "index.html" 
+  from = "/*"
+  to = "./index.html"
   status = 200
-  force = true
+  force = true 
   headers = {X-From = "Netlify"}
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
+
